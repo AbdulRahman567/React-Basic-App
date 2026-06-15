@@ -1,0 +1,14 @@
+{
+  "name": "internship-app",
+  "version": "1.0.0",
+  "description": "This app is created during my internship at spadasoft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

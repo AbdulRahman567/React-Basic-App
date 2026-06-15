@@ -1,0 +1,36 @@
+.card {
+  width: 250px;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.in-stock {
+  color: green;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.out-of-stock {
+  color: red;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sell-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+}
+
+.sell-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
