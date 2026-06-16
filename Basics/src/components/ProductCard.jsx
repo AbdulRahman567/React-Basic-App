@@ -3,7 +3,7 @@ import "./ProductCard.css";
 
 function ProductCard({ name, price, category, stock }) {
   const [currentStock, setCurrentStock] = useState(stock);
-
+  console.log(`Rendering ${name} with stock: ${currentStock}`);
   const handleSell = () => {
     if (currentStock > 0) {
       setCurrentStock(currentStock - 1);
